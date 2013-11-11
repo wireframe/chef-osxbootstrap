@@ -67,9 +67,6 @@ node_attributes:
       -
         - chef-dotfiles
         - https://github.com/wireframe/chef-dotfiles.git
-      -
-        - sprout-wrap
-        - https://github.com/wireframe/sprout-wrap.git
 
   rbenv:
     default_ruby: "2.0.0-p247"
