@@ -15,24 +15,8 @@ Finally, if you've never used Chef before - we highly recommend you buy &amp; wa
 
 ## Installation
 
-### 1. Install XCode
-
-[![Xcode - Apple](http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-lrg.gif)](https://itunes.apple.com/us/app/xcode/id497799835?mt=12&uo=4)
-
-### 2. Install Command Line Tools
-  
-  XCode > Preferences > Downloads
-  
-### 3. Clone this project
-  
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
-    cd sprout-wrap
-  
-### 4. Install soloist & and other required gems
-
-    sudo gem install bundler
-    bundle
-
-### 5. Run soloist
-  
-    bundle exec soloist
+```
+$ git clone https://github.com/wireframe/sprout-wrap.git
+$ cd sprout-wrap
+$ bin/provision
+```
