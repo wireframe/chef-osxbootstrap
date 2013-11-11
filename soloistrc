@@ -18,7 +18,7 @@ recipes:
 - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
 - osxdefaults::enable_safari_debug_menu
 - osxdefaults::finder_display_full_path
-- osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+- osxdefaults::finder_set_preferred_view_style
 - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
 - osxdefaults::save_to_disk_not_to_iCloud_by_default
 - osxdefaults::menu_show_clock_with_date

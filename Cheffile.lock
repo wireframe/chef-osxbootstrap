@@ -54,7 +54,7 @@ GIT
 GIT
   remote: https://github.com/wireframe/chef-osxdefaults
   ref: master
-  sha: 4b3f7e2ba40a64030e47c0aebdaf70818aa70f5e
+  sha: 2232ea4363eb503cef784d41994d30e487f2386d
   specs:
     osxdefaults (0.0.1)
 
