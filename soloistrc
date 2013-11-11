@@ -50,7 +50,8 @@ recipes:
 - applications::sizeup
 
 node_attributes:
-  loginmessage: Property of The Garage @ UHG
+  osxdefaults:
+    loginmessage: Property of The Garage @ UHG
   workspace_directory: Projects
   dotfiles:
     project_dir: Projects
