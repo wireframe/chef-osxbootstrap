@@ -1,14 +1,12 @@
-# sprout-wrap
-
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
+# chef-osxbootstrap
 
 This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-chef](https://github.com/applicationsonline/librarian-chef)
-to run a subset of the recipes in sprout's [cookbooks]((https://github.com/pivotal-sprout/sprout).
+to run a configurable set of the Chef recipes for automating installation and configuration of your OSX machine.
 
 ## Installation
 
 ```
-$ git clone https://github.com/wireframe/sprout-wrap.git
+$ git clone https://github.com/wireframe/chef-osxbootstrap.git
 $ cd sprout-wrap
 $ bin/provision
 ```
@@ -17,7 +15,7 @@ $ bin/provision
 
 The `bin/provision` script will automatically update your local configuration and re-run soloist to install/update any new recipes.
 
-## Local Customization
+## Local Customizations
 
 customize attributes and add new recipes using `~/.soloistrc_local` file.
 
